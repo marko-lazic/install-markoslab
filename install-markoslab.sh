@@ -20,6 +20,7 @@ sudo add-apt-repository -y ppa:audacity-team/daily > /dev/null 2>&1
 sudo add-apt-repository -y ppa:kxstudio-team/ppa > /dev/null 2>&1
 sudo add-apt-repository -y ppa:vikoadi/ppa > /dev/null 2>&1
 sudo add-apt-repository -y ppa:nilarimogard/webupd8 > /dev/null 2>&1
+sudo add-apt-repository -y ppa:gnome3-team/gnome3-staging > /dev/null 2>&1
 
 # google chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - > /dev/null 2>&1
