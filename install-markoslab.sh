@@ -35,6 +35,8 @@ sudo apt-get update > /dev/null 2>&1
 
 LIST_OF_APPS="grub-customizer simplescreenrecorder fluxgui inkscape  krita-2.9 mixxx caffeine numix-icon-theme-circle numix-icon-theme numix-gtk-theme android-studio pinta blender wine1.7 android-tools-adb android-tools-fastboot phablet-tools ubuntu-sdk nvidia-346 vlc google-chrome-stable audacity ardour3 steam indicator-kdeconnect kdeconnect jackd2 patchage gnome-subtitles youtube-dl haroopad git corebird tomahawk geary"
 
+LIBRARIES_FOR_STEAM="libgtk2.0-0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns libxml2:i386 libxslt1.1:i386"
+
 echo "installing apps..."
 sudo apt install -y $LIST_OF_APPS
 
