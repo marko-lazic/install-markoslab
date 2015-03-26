@@ -2,7 +2,7 @@
 
 sudo add-apt-repository -y ppa:ubuntu-wine/ppa     
 sudo apt-get update && sudo apt-get upgrade
-sudo apt-get -y install wine1.7 winetricks
+sudo apt-get install -y wine1.7 winetricks
 
 
 # Photoshop
