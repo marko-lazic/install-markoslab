@@ -43,7 +43,6 @@ LIBRARIES_FOR_STEAM=" libgtk2.0-0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss
 echo "installing apps..."
 sudo apt install -y $LIST_OF_APPS $LIBRARIES_FOR_STEAM
 sudo update-alternatives --config java
-sudo update-alternatives --config javac
 echo "done."
 
 

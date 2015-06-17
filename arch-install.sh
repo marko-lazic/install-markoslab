@@ -12,6 +12,8 @@ LIST_OF_AUDIO="jack2 audacity patchage ardour"
 
 LIST_OF_DEV="android-tools"
 
-LIST_OF_VIDEO="vlc openshot simplescreenrecorder"
+LIST_OF_VIDEO="vlc openshot simplescreenrecorder chromium-pepper-flash "
 
-LIST_OF_TEXT="gnome-subtitles "
+LIST_OF_TEXT="gnome-subtitles seahorse "
+
+LIST_OF_WEB=""
