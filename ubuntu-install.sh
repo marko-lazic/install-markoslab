@@ -29,6 +29,7 @@ sudo add-apt-repository -y ppa:webupd8team/y-ppa-manager
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y ppa:deity/sid
 sudo add-apt-repository -y ppa:plushuang-tw/uget-stable
+sudo add-apt-repository -y ppa:pmjdebruijn/darktable-release
 
 # google chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -38,7 +39,7 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 echo "updating..."
 sudo apt-get update
 
-LIST_OF_APPS="uget apt python-software-properties grub-customizer simplescreenrecorder fluxgui inkscape  krita-2.9 mixxx caffeine numix-icon-theme-circle numix-icon-theme numix-gtk-theme android-studio pinta blender wine1.7 android-tools-adb android-tools-fastboot phablet-tools ubuntu-sdk nvidia-346 vlc google-chrome-stable audacity ardour3 steam indicator-kdeconnect kdeconnect jackd2 patchage gnome-subtitles youtube-dl haroopad git corebird tomahawk geary y-ppa-manager oracle-java8-installer "
+LIST_OF_APPS="darktable uget apt python-software-properties grub-customizer simplescreenrecorder fluxgui inkscape  krita-2.9 mixxx caffeine numix-icon-theme-circle numix-icon-theme numix-gtk-theme android-studio pinta blender wine1.7 android-tools-adb android-tools-fastboot phablet-tools ubuntu-sdk nvidia-346 vlc google-chrome-stable audacity ardour3 steam indicator-kdeconnect kdeconnect jackd2 patchage gnome-subtitles youtube-dl haroopad git corebird tomahawk geary y-ppa-manager oracle-java8-installer "
 
 LIBRARIES_FOR_STEAM=" libgtk2.0-0:i386 libnss3-1d:i386 libnspr4-0d:i386 lib32nss-mdns libxml2:i386 libxslt1.1:i386"
 
