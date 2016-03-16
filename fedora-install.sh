@@ -38,15 +38,11 @@ mount --bind /mnt/backstage/Music                /home/marko/Music
 mount --bind /mnt/backstage/STUDIJSKI\040MATERIJAL /home/marko/STUDIJSKI\040MATERIJAL
 mount --bind /mnt/backstage/Videos               /home/marko/Videos
 
-UUID=f7d72391-285f-44b8-922a-99764fa2fe35 /mnt/backstage                        ext4    defaults,noatime,nodiratime        1 2
 UUID=c063275c-273d-44a8-b782-7fa178f9e603 /mnt/WDC                              ext4    defaults,noatime,nodiratime        1 2
-/mnt/backstage/IGRICE                     /home/marko/IGRICE                    none    bind                               0 0
-/mnt/backstage/INSTALACIJE                /home/marko/INSTALACIJE               none    bind                               0 0
-/mnt/backstage/Music                      /home/marko/Music                     none    bind                               0 0
-/mnt/backstage/STUDIJSKI\040MATERIJAL     /home/marko/STUDIJSKI\040MATERIJAL    none    bind                               0 0
-/mnt/backstage/Videos                     /home/marko/Videos                    none    bind                               0 0
-tmpfs /tmp tmpfs defaults 0 0
-tmpfs /var/tmp tmpfs defaults 0 0
+/mnt/WDC/Igrice         /home/marko/Programi/Igrice           none    bind
+/mnt/WDC/Instalacije    /home/marko/Programi/Instalacije      none    bind
+/mnt/WDC/Videos         /home/marko/Videos                    none    bind
+/mnt/WDC/Serveri        /home/marko/Programi/Serveri
 
 # Do this after feddy installing java
 sudo update-alternatives --config java
