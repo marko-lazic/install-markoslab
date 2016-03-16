@@ -1,6 +1,7 @@
 #!bin/sh
 
 
+<<<<<<< HEAD
 sudo dnf copr enable -y jgillich/brackets
 sudo dnf copr enable -y helber/atom
 sudo dnf copr enable -y timlau/yumex-dnf
@@ -12,6 +13,10 @@ sudo dnf config-manager --add-repo http://download.opensuse.org/repositories/hom
 LIST_OF_NOT_FOUND="VirtualBox-5.0 "
 
 LIST_OF_APPS="f23-backgrounds-extras-gnome yumex-dnf feedreader preload nautilus-open-terminal htop thunderbird haguichi android-tools uget mpv alacarte grub-customizer dkms kernel-devel gcc audacity-freeworld mixxx jack-audio-connection-kit-dbus qjackctl pulseaudio-module-jack transmission lollypop libreoffice blender gnome-builder gimp gpick calligra-krita inkscape corebird filezilla gparted easytag vsftpd polari converseen atom brackets pitivi kolourpaint unetbootin nmap-frontend yumex-dnf wine vlc"
+=======
+sudo dnf copr enable jgillich/brackets helber/atom timlau/yumex-dnf piqus/gnome-builder leigh123linux/libreoffice gnumdk/lollypop
+LIST_OF_APPS="pulseaudio-module-zeroconf paprefs VirtualBox-5.0 dkms kernel-devel gcc audacity-freeworld mixxx jack-audio-connection-kit-dbus transmission lollypop libreoffice blender gnome-builder gimp gpick calligra-krita inkscape corebird filezila gparted easytag vsftpd polari converseen atom brackets pitivi kolourpaint unetbootin nmap-frontend yumex-dnf wine"
+>>>>>>> 054ea62b98b13345c28c11eaf9288f82715f89ef
 sudo dnf update -y
 sudo dnf install -y LIST_OF_APPS
 
